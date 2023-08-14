@@ -73,7 +73,8 @@ You Created. --> Save.
     # Add env variables in bashrc
     
        vi .bashrc
-	# Give Unique Name And S3 Bucket which you created.
+	# Give Unique Name to the S3 Bucket which you created.
+ 	# the name must end with .k8s.local
 	export NAME=class30.k8s.local
 	export KOPS_STATE_STORE=s3://class30kops
  
